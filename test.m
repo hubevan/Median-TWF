@@ -1,7 +1,5 @@
-%% Example of the truncated Wirtinger Flow (TWF) algorithm under 1D Gaussian designs
-% The TWF algorithm is presented in the paper
-% ``Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems'' by Y. Chen and E. J. Candès.
-% The code below is adapted from implementation of the Wirtinger Flow algorithm designed and implemented by E. Candes, X. Li, and M. Soltanolkotabi
+%% test for Median-TWF, presented in paper "Provable Nonconvex Phase Retrieval with Outliers: Median Truncated Wirtinger Flow" @Huishuai Zhang, Yuejie Chi and Yingbin Liang
+% The code is adapted from implementation of TWF by Y. Chen and E. J. Candès and Wirtinger flow  by E. Candes, X. Li, and M. Soltanolkotabi
 clear;
 %% Set Parameters
 if exist('Params')                == 0,  Params.n2          = 1;    end
