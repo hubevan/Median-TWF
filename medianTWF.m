@@ -1,6 +1,5 @@
 %% Implementation of the median truncated Wirtinger Flow (median-TWF) algorithm which is adapted from 
-%  ``Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems'' by Y. Chen and E. J. Candès.
-% and the Wirtinger Flow algorithm designed and implemented by E. Candes, X. Li, and M. Soltanolkotabi
+%  TWF by Y. Chen and E. J. Candès.
 
 function [Relerrs] = medianTWF(y, x, Params, A, At)    
 %% Initialization
